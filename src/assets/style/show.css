@@ -1,0 +1,29 @@
+.trix-content img {
+  display: block;
+  margin-top: 1rem;
+  image-rendering: auto !important;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  height: 50vh;
+}
+.attachment__caption {
+  margin-top: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: oblique;
+  color: rgb(103, 105, 105);
+  quotes: "“" "”" "‘" "’";
+}
+
+.attachment__caption::before {
+  content: open-quote;
+}
+.attachment__caption::after {
+  content: close-quote;
+}
+.post-show-card {
+  width: 75vw;
+  margin: 0 auto;
+}
